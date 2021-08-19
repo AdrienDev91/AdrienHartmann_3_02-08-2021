@@ -66,6 +66,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px 10px;
 }
 
 .steps {
@@ -75,6 +76,19 @@ header {
     background: #f6f6f6;
     margin: 10px 20px;
     border-radius: 20px;
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.1);
+}
+
+.number {
+    color: white;
+    background: #9356DC;
+    border-radius: 100%;
+    padding: 3px 8px;
+}
+
+.procss-icon {
+    color: #7e7e7e;
+    margin: 0 15px;
 }
 
 .img {
@@ -89,8 +103,7 @@ header {
     display: flex;
     flex-direction: column;
     background: #f6f6f6;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 25px;
 }
 
 .restaurants-case {
