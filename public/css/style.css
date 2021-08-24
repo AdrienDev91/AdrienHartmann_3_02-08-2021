@@ -85,6 +85,10 @@
         box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.1);
     }
     
+    .steps:hover {
+        background-color: white;
+    }
+    
     .number {
         color: white;
         background: #9356DC;
@@ -210,10 +214,15 @@
     
     .menu {
         background-color: #f6f6f6;
-        margin: -150px 0 50px 0;
+        margin-top: -100px;
         border-radius: 30px 30px 0 0;
         position: relative;
         width: 100%;
+        padding-bottom: 50px;
+    }
+    
+    .menu-bloc {
+        margin-bottom: 50px;
     }
     
     .restaurant-name {
