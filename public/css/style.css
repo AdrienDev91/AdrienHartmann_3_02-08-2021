@@ -202,6 +202,12 @@
     }
     /*Pages menu*/
     
+    .arrow-icon {
+        position: absolute;
+        left: 10px;
+        font-size: 25px;
+    }
+    
     .menu {
         background-color: #f6f6f6;
         margin: -150px 0 50px 0;
@@ -253,6 +259,10 @@
         box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.1);
     }
     
+    .description {
+        overflow: hidden;
+    }
+    
     .description-title {
         font-weight: bold;
     }
@@ -280,7 +290,7 @@
     }
     /*Bureau*/
     
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1150px) {
         /*Acceuil*/
         main {
             margin: auto;
@@ -313,6 +323,9 @@
         .menu-title {
             margin: 20px 0 15px 0;
         }
+        .footer-bloc {
+            margin-left: 30px;
+        }
         .footerbloc-links {
             display: flex;
             flex-direction: row;
@@ -322,7 +335,7 @@
     }
     /*Tablettes*/
     
-    @media screen and (min-width: 700px) and (max-width: 1023px) {
+    @media screen and (min-width: 700px) and (max-width: 1149px) {
         /*Acceuil*/
         .process {
             width: 70%;
