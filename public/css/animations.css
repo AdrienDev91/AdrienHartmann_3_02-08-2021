@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
 .bar {
     width: 10px;
     height: 80px;
-    background: linear-gradient(180deg, #FF79DA, #99e2D0);
+    background: linear-gradient(180deg, #ff79da, #99e2d0);
     margin: 5px;
     animation: bar 1000ms backwards infinite;
     animation-direction: alternate;
@@ -47,10 +47,10 @@
 
 @keyframes bar {
     0% {
-        transform: scale(0)
+        transform: scale(0);
     }
     100% {
-        transform: scale(1)
+        transform: scale(1);
     }
 }
 
@@ -77,10 +77,29 @@
 
 /*HEART*/
 
-.fa-heart {
-    transform: scale(1);
+.heart1 {
+    transform: scale(1.12);
+    opacity: 0;
+    background: linear-gradient(180deg, #ff79da, #9356dc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
 }
 
-.fa-heart:hover {
-    transform: scale(1.1);
+.heart1:hover {
+    opacity: 1;
+    animation: heart 100ms linear;
+}
+
+@keyframes heart {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.12);
+    }
+}
+
+.heart2 {
+    position: absolute;
 }
