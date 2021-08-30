@@ -286,6 +286,9 @@ a {
 }
 
 .menu-box {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
     display: flex;
     background-color: white;
     border-radius: 15px;
@@ -312,6 +315,7 @@ a {
 
 .price {
     font-weight: bold;
+    overflow: hidden;
 }
 
 .order-button {
