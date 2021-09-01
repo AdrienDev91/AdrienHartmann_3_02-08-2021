@@ -73,15 +73,6 @@
     }
     /*HEART*/
     
-    .heart1 {
-        transform: scale(1.12);
-        opacity: 0;
-        background: linear-gradient(180deg, #ff79da, #9356dc);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        z-index: 1;
-    }
-    
     .heart1:hover {
         opacity: 1;
         animation: heart 100ms linear;
@@ -94,10 +85,6 @@
         100% {
             transform: scale(1.12);
         }
-    }
-    
-    .heart2 {
-        position: absolute;
     }
     /*Apparition effect*/
     
@@ -153,23 +140,12 @@
     #box10 {
         animation-delay: 1s;
     }
-    /*Slide vert*/
-    
-    .slide-left {
-        display: none;
-        position: absolute;
-        background: #99E2D0;
-        border-radius: 0 15px 15px 0;
-        padding: 13px;
-        right: 0px;
-        height: 100%;
-    }
+    /*Slide check*/
     
     .menu-box:hover .slide-left {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: slide-left 500ms ease;
+        transform: scaleX(1);
+        animation: slide-left 500ms ease-out;
         transform-origin: right;
     }
     
@@ -178,14 +154,12 @@
             transform: scaleX(0);
         }
         100% {
-            transform: scaleX(-100px);
+            transform: scaleX(1);
         }
     }
     /*Rotation icon validation*/
     
-    .fa-check-circle {
-        font-size: 30px;
-        color: white;
+    .animate-circle {
         transform: rotate(180deg);
         animation: rotate 0.5s both;
     }

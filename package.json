@@ -1,0 +1,19 @@
+{
+    "name": "projectomyfood",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AdrienDev91/AdrienHartmann_3_02-08-2021.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AdrienDev91/AdrienHartmann_3_02-08-2021/issues"
+    },
+    "homepage": "https://github.com/AdrienDev91/AdrienHartmann_3_02-08-2021#readme"
+}
