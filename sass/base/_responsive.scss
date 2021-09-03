@@ -1,0 +1,75 @@
+/*Bureau*/
+
+@media screen and (min-width: 1150px) {
+    /*Acceuil*/
+    main {
+        margin: auto;
+    }
+    .process {
+        width: 70%;
+        margin: auto;
+    }
+    .location {
+        background: white;
+    }
+    .explore-container {
+        background: white;
+    }
+    .restaurants {
+        background: white;
+    }
+    .restaurants-bloc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    .restaurant-cards {
+        width: 380px;
+    }
+    .title-choice {
+        display: flex;
+        justify-content: center;
+    }
+    /*Pages menu*/
+    .menu-bloc {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .menu-title {
+        margin: 20px 0 15px 0;
+    }
+    .footer-bloc {
+        margin: auto;
+        max-width: 1200px;
+    }
+    .footerbloc-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 800px;
+    }
+}
+
+
+/*Tablettes*/
+
+@media screen and (min-width: 700px) and (max-width: 1149px) {
+    /*Acceuil*/
+    .process {
+        width: 70%;
+        margin: auto;
+    }
+    .restaurants-bloc {
+        width: 450px;
+    }
+    /*Pages menu*/
+    .menu-bloc {
+        width: 70%;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+}

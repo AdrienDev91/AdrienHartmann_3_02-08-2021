@@ -1,0 +1,44 @@
+.heart-icon {
+    display: flex;
+    margin-right: 15px;
+    width: 60px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.heart1 {
+    transform: scale(1.12);
+    opacity: 0;
+    background: linear-gradient(180deg, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+
+.heart2 {
+    position: absolute;
+}
+
+.arrow-icon {
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+}
+
+.slide-left {
+    display: none;
+    background: #99E2D0;
+    width: 55px;
+    height: 63px;
+    margin: -1em;
+    align-items: center;
+    justify-content: center;
+    transform: scaleX(0);
+}
+
+.validation-circle {
+    font-size: 23px;
+    color: white;
+}

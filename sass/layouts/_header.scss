@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-family: "Shrikhand", cursive;
+    margin: 0;
+    color: black;
+}
