@@ -30,8 +30,7 @@
 
 .contact {
     color: white;
-}
-
-.contact:hover {
-    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
 }

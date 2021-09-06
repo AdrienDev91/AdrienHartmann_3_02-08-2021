@@ -30,20 +30,6 @@
     text-align: center;
 }
 
-.explore-button {
-    background: linear-gradient(#ff79da, #9356dc);
-    color: white;
-    border-radius: 200px;
-    padding: 0 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-}
-
-.explore-button:hover {
-    transform: scale(1.05);
-    opacity: 0.7;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-}
-
 .process {
     display: flex;
     flex-direction: column;
@@ -63,15 +49,14 @@
     margin: 10px 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.1);
-}
-
-.steps:hover {
-    background-color: white;
+    &:hover {
+        background-color: white;
+    }
 }
 
 .number {
     color: white;
-    background: #9356dc;
+    background: $violet;
     border-radius: 100%;
     padding: 3px 8px;
     margin-left: -10px;
@@ -118,7 +103,7 @@
 .new {
     display: flex;
     position: absolute;
-    background: #99e2d0;
+    background: $turquoise;
     top: 20px;
     right: 20px;
 }

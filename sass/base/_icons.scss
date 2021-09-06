@@ -11,7 +11,7 @@
 .heart1 {
     transform: scale(1.12);
     opacity: 0;
-    background: linear-gradient(180deg, #ff79da, #9356dc);
+    background: linear-gradient(180deg, $rose, $violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 1;
@@ -29,7 +29,7 @@
 
 .slide-left {
     display: none;
-    background: #99E2D0;
+    background: $turquoise;
     width: 55px;
     height: 63px;
     margin: -1em;

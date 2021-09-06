@@ -30,20 +30,6 @@
   text-align: center;
 }
 
-.explore-button {
-  background: linear-gradient(#ff79da, #9356dc);
-  color: white;
-  border-radius: 200px;
-  padding: 0 20px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-}
-
-.explore-button:hover {
-  transform: scale(1.05);
-  opacity: 0.7;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-}
-
 .process {
   display: flex;
   flex-direction: column;
@@ -64,7 +50,6 @@
   border-radius: 20px;
   box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.1);
 }
-
 .steps:hover {
   background-color: white;
 }
@@ -184,7 +169,6 @@
 .contact {
   color: white;
 }
-
 .contact:hover {
   text-decoration: underline;
 }
@@ -217,8 +201,20 @@ header {
   transform: scale(1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
-
 .order-button:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+.explore-button {
+  background: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  border-radius: 200px;
+  padding: 0 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.explore-button:hover {
   transform: scale(1.05);
   opacity: 0.7;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
@@ -348,7 +344,7 @@ header {
 
 .slide-left {
   display: none;
-  background: #99E2D0;
+  background: #99e2d0;
   width: 55px;
   height: 63px;
   margin: -1em;
