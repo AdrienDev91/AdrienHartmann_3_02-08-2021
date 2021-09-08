@@ -144,6 +144,7 @@
     
     .menu-box:hover .slide-left {
         display: flex;
+        margin-left: 14px;
         transform: scaleX(1);
         animation: slide-left 500ms ease-out;
         transform-origin: right;

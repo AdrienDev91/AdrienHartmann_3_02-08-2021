@@ -17,6 +17,7 @@
     }
     .restaurants {
         background: white;
+        align-items: center;
     }
     .restaurants-bloc {
         display: grid;
@@ -62,6 +63,9 @@
     .process {
         width: 70%;
         margin: auto;
+    }
+    .restaurants {
+        align-items: center;
     }
     .restaurants-bloc {
         width: 450px;

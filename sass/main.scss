@@ -1,11 +1,12 @@
 @import "./utils/variables";
-@import "./pages/acceuil.scss";
-@import "./layouts/footer.scss";
-@import "./layouts/header.scss";
-@import "./components/btn.scss";
-@import "./base/menu.scss";
+@import "./pages/acceuil";
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./components/btn";
+@import "./base/menu";
 @import "./base/icons";
 @import "./base/responsive";
+@import "./utils/mixins";
 main {
     font-family: "Roboto", sans-serif;
     max-width: 1250px;

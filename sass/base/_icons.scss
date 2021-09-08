@@ -23,18 +23,18 @@
 
 .arrow-icon {
     position: absolute;
-    left: 10px;
+    left: 20px;
     font-size: 25px;
 }
 
 .slide-left {
     display: none;
-    background: $turquoise;
-    width: 55px;
-    height: 63px;
-    margin: -1em;
     align-items: center;
     justify-content: center;
+    background: $turquoise;
+    width: 55px;
+    height: 72px;
+    margin: -1em;
     transform: scaleX(0);
 }
 
