@@ -37,7 +37,7 @@
     .bar {
         width: 10px;
         height: 80px;
-        background: linear-gradient(180deg, #ff79da, #99e2d0);
+        background: linear-gradient(180deg, $rose, $turquoise);
         margin: 5px;
         animation: bar 1000ms backwards infinite;
         animation-direction: alternate;

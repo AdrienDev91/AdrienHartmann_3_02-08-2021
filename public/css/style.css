@@ -394,6 +394,7 @@ header {
 @media screen and (min-width: 1150px) {
   /*Acceuil*/
   main {
+    max-width: 1901px;
     margin: auto;
   }
 
@@ -477,6 +478,175 @@ header {
     width: 70%;
     margin: auto;
     padding-bottom: 25px;
+  }
+}
+/*Loading wave*/
+.wave {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  opacity: 0.9;
+  animation: wave 2000ms linear;
+  visibility: hidden;
+}
+
+@keyframes wave {
+  0% {
+    visibility: visible;
+    opacity: 0.9;
+  }
+  65% {
+    visibility: visible;
+    opacity: 0.9;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+/*BARRES*/
+.bar {
+  width: 10px;
+  height: 80px;
+  background: linear-gradient(180deg, #ff79da, #99e2d0);
+  margin: 5px;
+  animation: bar 1000ms backwards infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bar {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.bar:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.bar:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.bar:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.bar:nth-child(5) {
+  animation-delay: 1s;
+}
+
+/*HEART*/
+.heart1:hover {
+  opacity: 1;
+  animation: heart 100ms linear;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.12);
+  }
+}
+/*Apparition effect*/
+.menu-box {
+  animation: apparition 1000ms both;
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#box1 {
+  animation-delay: 0.1s;
+}
+
+#box2 {
+  animation-delay: 0.2s;
+}
+
+#box3 {
+  animation-delay: 0.3s;
+}
+
+#box4 {
+  animation-delay: 0.4s;
+}
+
+#box5 {
+  animation-delay: 0.5s;
+}
+
+#box6 {
+  animation-delay: 0.6s;
+}
+
+#box7 {
+  animation-delay: 0.7s;
+}
+
+#box8 {
+  animation-delay: 0.8s;
+}
+
+#box9 {
+  animation-delay: 0.9s;
+}
+
+#box10 {
+  animation-delay: 1s;
+}
+
+/*Slide check*/
+.menu-box:hover .slide-left {
+  display: flex;
+  margin-left: 14px;
+  transform: scaleX(1);
+  animation: slide-left 500ms ease-out;
+  transform-origin: right;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+/*Rotation icon validation*/
+.animate-circle {
+  transform: rotate(180deg);
+  animation: rotate 0.5s both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 main {
